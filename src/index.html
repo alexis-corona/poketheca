@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex</title>
+    <link rel="icon" href="https://assets.pokemon.com/static2/_ui/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <div class="logo-github-wrapper">
+                <a href="https://github.com/alexis-corona" target="_blank" rel="noopener noreferrer" class="github-link">
+                    <img src="./img/github.svg" alt="GitHub" class="github-img" />
+                </a>
+                <img class="logo-img" src="./img/logo.png" alt="Pokédex Logo" />
+            </div>
+            <ul class="nav-list">
+                <li class="nav-item"><button class="btn-header" id="see-all">All</button></li> 
+                <li class="nav-item"><button class="btn-header bug" id="bug">Bug</button></li>
+                <li class="nav-item"><button class="btn-header dark" id="dark">Dark</button></li>
+                <li class="nav-item"><button class="btn-header dragon" id="dragon">Dragon</button></li>
+                <li class="nav-item"><button class="btn-header electric" id="electric">Electric</button></li>
+                <li class="nav-item"><button class="btn-header fairy" id="fairy">Fairy</button></li>
+                <li class="nav-item"><button class="btn-header fighting" id="fighting">Fighting</button></li>
+                <li class="nav-item"><button class="btn-header fire" id="fire">Fire</button></li>
+                <li class="nav-item"><button class="btn-header flying" id="flying">Flying</button></li>
+                <li class="nav-item"><button class="btn-header ghost" id="ghost">Ghost</button></li>
+                <li class="nav-item"><button class="btn-header grass" id="grass">Grass</button></li>
+                <li class="nav-item"><button class="btn-header ground" id="ground">Ground</button></li>
+                <li class="nav-item"><button class="btn-header ice" id="ice">Ice</button></li>
+                <li class="nav-item"><button class="btn-header normal" id="normal">Normal</button></li>
+                <li class="nav-item"><button class="btn-header poison" id="poison">Poison</button></li>
+                <li class="nav-item"><button class="btn-header psychic" id="psychic">Psychic</button></li>
+                <li class="nav-item"><button class="btn-header rock" id="rock">Rock</button></li>
+                <li class="nav-item"><button class="btn-header steel" id="steel">Steel</button></li>
+                <li class="nav-item"><button class="btn-header water" id="water">Water</button></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="all">
+            <div id="loader" class="loader-container">
+                <img src="https://media.tenor.com/6XLsvhpU61wAAAAi/run-pikachu.gif" alt="Loading" class="pikachu-loader" />
+            </div>
+            <div class="all-pokemon" id="pokemonList"></div>
+        </div>
+    </main>
+
+    <script src="main.js"></script>
+</body>
+</html>
